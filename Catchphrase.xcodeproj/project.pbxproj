@@ -13,6 +13,8 @@
 		AA1AEAE019FB243B00A7A2F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1AEADF19FB243B00A7A2F9 /* Images.xcassets */; };
 		AA1AEAE319FB243B00A7A2F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1AEAE119FB243B00A7A2F9 /* LaunchScreen.xib */; };
 		AA1AEAEF19FB243B00A7A2F9 /* CatchphraseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1AEAEE19FB243B00A7A2F9 /* CatchphraseTests.swift */; };
+		AA1AEAF919FB24F100A7A2F9 /* CatchphraseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1AEAF819FB24F100A7A2F9 /* CatchphraseModel.swift */; };
+		AA1AEAFB19FB30E600A7A2F9 /* nounlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA1AEAFA19FB30E600A7A2F9 /* nounlist.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		AA1AEAE819FB243B00A7A2F9 /* CatchphraseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchphraseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1AEAED19FB243B00A7A2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA1AEAEE19FB243B00A7A2F9 /* CatchphraseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchphraseTests.swift; sourceTree = "<group>"; };
+		AA1AEAF819FB24F100A7A2F9 /* CatchphraseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatchphraseModel.swift; sourceTree = "<group>"; };
+		AA1AEAFA19FB30E600A7A2F9 /* nounlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nounlist.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				AA1AEAD819FB243B00A7A2F9 /* AppDelegate.swift */,
 				AA1AEADA19FB243B00A7A2F9 /* ViewController.swift */,
+				AA1AEAF819FB24F100A7A2F9 /* CatchphraseModel.swift */,
 				AA1AEADC19FB243B00A7A2F9 /* Main.storyboard */,
 				AA1AEADF19FB243B00A7A2F9 /* Images.xcassets */,
 				AA1AEAE119FB243B00A7A2F9 /* LaunchScreen.xib */,
@@ -90,6 +95,7 @@
 		AA1AEAD619FB243B00A7A2F9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA1AEAFA19FB30E600A7A2F9 /* nounlist.txt */,
 				AA1AEAD719FB243B00A7A2F9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,7 @@
 			files = (
 				AA1AEADE19FB243B00A7A2F9 /* Main.storyboard in Resources */,
 				AA1AEAE319FB243B00A7A2F9 /* LaunchScreen.xib in Resources */,
+				AA1AEAFB19FB30E600A7A2F9 /* nounlist.txt in Resources */,
 				AA1AEAE019FB243B00A7A2F9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +221,7 @@
 			files = (
 				AA1AEADB19FB243B00A7A2F9 /* ViewController.swift in Sources */,
 				AA1AEAD919FB243B00A7A2F9 /* AppDelegate.swift in Sources */,
+				AA1AEAF919FB24F100A7A2F9 /* CatchphraseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
